@@ -37,8 +37,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Project_x86_64,Lede_x86_64,Lienol_x86_64]
-
+        target: [Lede_p2w_r619ac_128m]
+#805
     steps:
     - name: 准备结束
       uses: actions/checkout@v2
